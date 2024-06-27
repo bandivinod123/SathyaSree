@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sathya Sree Enterprises</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-jr3+RQC2lT8o+IyDWcdSGnUStc96TYBfDvib2MJBH3KfZ/yY/N7R2P4FmoxAe4+Kg6hFiQgH6omHsG5r7JzN3A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div id="home-page" class="page">
+        <header>
+            <div class="company-name">Sathya Sree Enterprises & Gops Foods Distributor</div>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+            <nav>
+                <div class="nav-links">
+                    <a href="#home-page" class="nav-link">Home</a>
+                    <a href="#category-page" class="nav-link">Products</a>
+                    <a href="#about-us" class="nav-link">About Us</a>
+                    <a href="#contact-us" class="nav-link">Contact Us</a>
+                </div>
+            </nav>
+        </header>
+
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Sathya Sree Enterprises & Gops Foods Distributor</h1>
+                <p>"Quality frozen food items for every taste"</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="category-page" class="page">
+        <div class="container">
+            <h2 class="categories-heading">Our Company Products </h2>
+    
+            <!-- Company Logos Section -->
+           
+            <section class="company-logos">
+                <img src="images/Logs/Mc cain logo.png" alt="Logo 1">
+                <img src="images/Logs/ITC Master Cheff.png" alt="Logo 2">
+                <img src="images/Logs/Godrej Foods logo.png" alt="Logo 3">
+                <img src="images/Logs/Freshto go.png" alt="Logo 4">
+                <img src="images/Logs/CP FOODS.png" alt="Logo 5">
+                <img src="images/Logs/Prasuma foods.jpg" alt="Logo 6">
+                <img src="images/Logs/MIS foods.PNG" alt="Logo 7">
+                <img src="images/Logs/Fun Foods.PNG" alt="Logo 8">
+                <!-- Add more logo items as needed -->
+            </section>
+    
+            <!-- Brochure Links Section -->
+            <section class="brochure-links">
+                <h3 class="category-heading">Please click on the below mentioned brochures buttons</h3>
+                <div class="brochure-list">
+                    <a href="Brochures/Mc cain catelog.pdf" target="_blank" class="brochure-link">Mc Cain foods</a>
+                    <a href="Brochures/ITC Brochures.pdf" target="_blank" class="brochure-link">ITC Master Chef</a>
+                    <a href="Brochures/Godrej Foods.pdf" target="_blank" class="brochure-link">Godrej Foods</a>
+                    <a href="Brochures/Fresh2Go Brochure (1).pdf" target="_blank" class="brochure-link">Fresh2Go</a>
+                    <a href="Brochures/CP Foods.pdf" target="_blank" class="brochure-link">CP Foods</a>
+                    <a href="Brochures/Parasuma Brochures.pdf" target="_blank" class="brochure-link">Parasuma foods</a>
+                    <a href="Brochures/MIS Final Brochure.pdf" target="_blank" class="brochure-link">MIS Foods</a>
+                    <a href="Brochures/Mayonnaise -Fun Foods.pdf" target="_blank" class="brochure-link">Mayonnaise Foods</a>
+                    <!-- Add more brochure links as needed -->
+                </div>
+            </section>
+
+            <!-- Products in a single line -->
+            <div class="product-line">
+                <div class="product">
+                    <img src="images/Sweet Corn.jpeg" alt="Sweet Corn">
+                    <p>Sweet Corn</p>
+                </div>
+
+                <div class="product">
+                    <img src="images/Sweet Green Peas.jpeg" alt="Sweet Green Peas">
+                    <p>Sweet Green Peas</p>
+                </div>
+
+                <div class="product">
+                    <img src="images/Frozen Mixed Vegetables.jpeg" alt="Mixed Vegetables">
+                    <p>Mixed Vegetables</p>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div id="about-us" class="page">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Sathya Sree Enterprises was established in 2013, specializing in the sale of various types of frozen food items. Whether it's a meal or a snack, our products can be prepared in under 7 minutes, delivering convenience right to your doorstep. Enjoy satisfying your cravings in the comfort of your home with our delicious range of options.</p>
+        </div>
+    </div>
+
+    <div id="contact-us" class="contact-form-container">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="submit.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="message">Enquiry Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section address-section">
+                <h3>Address:</h3>
+                <p>Plot 135P, near MNR PG College,<br>Jai Bharat Nagar, Sreenivasa Nagar,<br>Kukatpally, Hyderabad, Telangana 500085</p>
+            </div>
+            <div class="footer-section enquiry-section">
+                <h3>For Enquiry Us:</h3>
+                <p>Email: <a href="mailto:sathyasreeenterprises@gmail.com">sathyasreeenterprises@gmail.com</a><br>Mobile: <a href="tel:+917993630134">7993630134</a></p>
+                <p>Email: <a href="mailto:gopsfooddistributor@gmail.com">gopsfooddistributor@gmail.com</a><br>Mobile: <a href="tel:+916399489045">6399489045</a></p>
+            </div>
+            <div class="footer-section follow-us-section">
+                <h3>Follow Us:</h3>
+                <a href="https://www.instagram.com/sathyasree884?utm_source=qr&igsh=dGV0enlkaTQ5dWY1"><img src="instagram-icon.png" alt="Instagram"></a>
+                <a href="https://www.instagram.com/gopsfoods?utm_source=qr&igsh=NXg4Z2pxaGs0MW13"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-section location-section">
+                <h3 class="location-heading">Location:</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3805.1025130579815!2d78.3892203742123!3d17.502619199477213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91007a025ac5%3A0x847d67cbcd3ec12d!2sSathya%20Sree%20Enterprise!5e0!3m2!1sen!2sin!4v1719478031825!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2024 Sathya Sree Enterprises. All rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        // JavaScript to handle active class for navigation links
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('nav a').forEach(navLink => navLink.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // JavaScript to toggle mobile menu
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+        menuToggle.addEventListener('click', function() {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body

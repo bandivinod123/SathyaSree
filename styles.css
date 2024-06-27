@@ -1,0 +1,265 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.company-name {
+    font-size: 18px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.hero {
+    background-image: url('images/Back\ ground\ image.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.page {
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.company-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.company-logos img {
+    max-width: 100px;
+    height: auto;
+}
+
+.brochure-links {
+    text-align: center;
+}
+
+.brochure-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.brochure-link {
+    display: block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.product-line {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.product img {
+    max-width: 100px;
+    height: auto;
+}
+
+.product p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.contact-form-container {
+    padding: 20px;
+}
+
+.contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form-container label {
+    font-size: 14px;
+}
+
+.contact-form-container input,
+.contact-form-container textarea {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form-container button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.location-heading {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.location-section iframe {
+    width: 100%;
+    height: 200px;
+    border: 0;
+}
+
+.copyright {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    font-size: 14px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .nav-links.active {
+        display: flex;
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #333;
+        padding: 10px;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 10px;
+        font-size: 18px;
+        text-align: center;
+        border-bottom: 1px solid #444;
+    }
+
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .company-logos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .brochure-list {
+        flex-direction: column;
+    }
+
+    .product-line {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
